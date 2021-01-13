@@ -78,7 +78,7 @@ def pipe_score_check():
 pygame.init()
 screen = pygame.display.set_mode((576, 1024))
 clock = pygame.time.Clock()
-game_font = pygame.font.Font('04B_19.TTF',40)
+game_font = pygame.font.SysFont('arial',40)
 
 gravity = 0.25
 bird_movement = 0
